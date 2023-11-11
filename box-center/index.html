@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            display: flex;
+            width: 338px;
+            height: 230px;
+            border: 1px solid #212775;
+            background-color: #fff;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+
+        /* second method center box*/
+
+        .second{
+            border: 2px solid black;
+            position: relative;
+            width: 338px;
+            height: 230px;
+                    }
+        .box1{
+            position: absolute;
+            background-color: red;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box"></div>
+    </div>
+
+    <!-- second -->
+    <div class="second">
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
