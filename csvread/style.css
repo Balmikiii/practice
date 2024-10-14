@@ -1,0 +1,87 @@
+table{
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+tr{
+    padding: 15px 15px;
+}
+tr:nth-child(odd){
+    background-color:#e4e4e4;
+    }
+form{
+    margin:auto;
+    width: 80%;
+    /* padding-top: 50px; */
+}
+form div{
+    float: right;
+}
+.datas{
+    padding-top: 50px;
+}
+.pagejump{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.pagination{
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.lastarea{
+    display: block;
+}
+.btnlight{
+    color: #fff;
+    background: #000;
+}
+.delbtn{
+    color: red;
+    text-decoration: none;
+}
+.editbtn{
+    color: green;
+    text-decoration: none;
+}
+.update_form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 400px;
+    background-color:  #ffffff;
+    box-shadow: 0px 0px 25px #000000;
+    border-radius:25px ;
+    padding: 25px;
+    /* filter: blur(5px); */
+}
+.update_form span{
+    margin-left: 20px;
+}
+.update_form input{
+    margin-bottom: 15px;
+}
+.update_form input[type=submit]{
+    margin: auto;
+    display: flex;
+}
+.update_form button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.form_btn_close{
+    cursor: pointer;
+}
+#display_form .form{
+    display: none;
+}

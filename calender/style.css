@@ -1,0 +1,14 @@
+table{
+    width: 30%;
+    margin-top: 20px;
+}
+table,th,td{
+    border-collapse:collapse;
+    text-align:center;
+}
+td,th{
+    border:1px solid black;
+}
+.change{
+    color: #b1b1b1;
+}

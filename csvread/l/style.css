@@ -1,0 +1,45 @@
+table{
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+tr{
+    padding: 15px 15px;
+}
+tr:nth-child(odd){
+    background-color:#e4e4e4;
+    }
+form{
+    margin:auto;
+    width: 80%;
+    padding-top: 50px;
+}
+form div{
+    float: right;
+}
+.datas{
+    padding-top: 50px;
+}
+.pagejump{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.pagination{
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.lastarea{
+    display: block;
+}
+.btnlight{
+    color: #fff;
+    background: #000;
+}
