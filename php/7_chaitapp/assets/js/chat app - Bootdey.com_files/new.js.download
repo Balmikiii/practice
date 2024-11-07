@@ -1,0 +1,18 @@
+let chat_history = document.getElementsByClassName("chait_box_chiting")[0];
+function chat(){
+    var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            chat_history.innerHTML = this.responseText;
+        }
+      };
+    xmlhttp.open("GET", "box.php", true);     
+    xmlhttp.send();
+    
+}
+
+chat();
+
+// setInterval(chat, 100);
+
+

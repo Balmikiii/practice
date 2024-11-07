@@ -1,0 +1,42 @@
+.firs-table td{
+    width: 100px ;
+    cursor: pointer;
+}
+.firs-table td.active{
+    background-color:#bebebe !important;
+}
+.firs-table td div{
+    text-align: end; 
+    vertical-align: text-top !important;
+}
+.firs-table th{
+    padding: 0px !important;
+}
+.firs-table .change{
+    color: #b1b1b1 !important;
+}
+.firs-table tr:nth-child(n+2){
+    height: 100px;
+}
+.firs-table,td{
+    user-select: none;
+}
+.events-form{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    background: white;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 25px;
+}
+.close_form{
+    float: right;
+    padding: 20px;
+    border: 0px;
+    background: transparent;
+}
+#drag3{
+    cursor: grabbing;
+}
